@@ -18,6 +18,7 @@ public class Proprietario {
     private String cpf;
     private int telefone;
     private String endereco;
+    
 
     @Override
     public int hashCode() {

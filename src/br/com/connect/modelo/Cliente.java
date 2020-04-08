@@ -39,7 +39,7 @@ public class Cliente {
             String s1 = new String("Tarley");
             String s2 = new String("Tarley");
             
-            if (s1.equals.s2)
+            if (s1.equals(s2))
                 System.out.println("Iguais");
             else
                 System.out.println("Diferentes");

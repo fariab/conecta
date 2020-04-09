@@ -82,7 +82,7 @@ public class Equipamento {
     }
 
     public void cadastroEquipamento() {
-        System.out.println("Cadastro de equipamento no banco de dados .");
+        System.out.println("Cadastro de equipamento no banco de dados  .");
     }
 
     public List<Equipamento> buscarEquipamentos() {
@@ -99,4 +99,9 @@ public class Equipamento {
         System.out.println("Altera equipamento já cadastrado. ");
     }
 
+    @Override
+    public String toString() {
+        return "Equipamento{" + "idCadastroEquipamento=" + idCadastroEquipamento + ", nomeEquipamento=" + nomeEquipamento + ", numeroDeSerie=" + numeroDeSerie + ", fabricanteEquipamento=" + fabricanteEquipamento + ", valorBaseHora=" + valorBaseHora + '}';
+    }
+    
 }

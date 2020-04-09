@@ -1,5 +1,8 @@
 package br.com.connect.modelo;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Equipamento {
 
     private Integer idCadastroEquipamento;
@@ -77,12 +80,23 @@ public class Equipamento {
     public void setValorBaseHora(Float valorBaseHora) {
         this.valorBaseHora = valorBaseHora;
     }
-    
-    
-    public void cadastroCliente(){
-        System.out.println("Cadastro de cliente no banco de dados principal.");  
-    }  
-    
-    
+
+    public void cadastroEquipamento() {
+        System.out.println("Cadastro de equipamento no banco de dados .");
+    }
+
+    public List<Equipamento> buscarEquipamentos() {
+        return new ArrayList<>();
+    }
+
+    public Equipamento deletaEquipamento() {
+        Equipamento eaquipamentoExluido = new Equipamento();
+        System.out.println("Realiza e exclusão do equipamento cadastrado.");
+        return eaquipamentoExluido;
+    }
+
+    public void alteraEquipamento() {
+        System.out.println("Altera equipamento já cadastrado. ");
+    }
 
 }

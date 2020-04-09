@@ -22,6 +22,11 @@ public class Disponibilizacao {
     private float valor;
     private String ConfirmacaoDevolucao;
     private int ID;
+    
+    
+    public void CadastrarItem(){
+        System.out.println("Cadastrar item para aluguel");
+    }
 
     @Override
     public int hashCode() {

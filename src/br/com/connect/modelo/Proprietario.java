@@ -19,6 +19,10 @@ public class Proprietario {
     private int telefone;
     private String endereco;
     
+    public void CadastrarProprietario(){
+        System.out.println("Cadastro de proprietario");
+    }
+    
 
     @Override
     public int hashCode() {

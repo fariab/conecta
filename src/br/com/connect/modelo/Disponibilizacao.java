@@ -12,6 +12,11 @@ import java.util.Date;
  * @author gustavo
  */
 public class Disponibilizacao {
+
+    @Override
+    public String toString() {
+        return "Disponibilizacao{" + "DataDisponibilizacao=" + DataDisponibilizacao + ", DataDevolucao=" + DataDevolucao + ", valor=" + valor + ", ConfirmacaoDevolucao=" + ConfirmacaoDevolucao + '}';
+    }
     private Date DataDisponibilizacao;
     private Date DataDevolucao;
     private float valor;

@@ -55,5 +55,11 @@ public void alterarEquip(){
         this.descricao = descricao;
     }
 
+    @Override
+    public String toString() {
+        return "Modelo{" + "nome=" + nome + ", descricao=" + descricao + '}';
+    }
+
+
 
 }

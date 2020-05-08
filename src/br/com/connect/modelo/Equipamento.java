@@ -11,6 +11,20 @@ public class Equipamento {
     private String fabricanteEquipamento;
     private Float valorBaseHora;
 
+    public Equipamento(Integer idCadastroEquipamento, String nomeEquipamento,
+            Integer numeroDeSerie, String fabricanteEquipamento, Float valorBaseHora) {
+        this.idCadastroEquipamento = idCadastroEquipamento;
+        this.nomeEquipamento = nomeEquipamento;
+        this.numeroDeSerie = numeroDeSerie;
+        this.fabricanteEquipamento = fabricanteEquipamento;
+        this.valorBaseHora = valorBaseHora;
+    }
+
+    public Equipamento() { // Verificar o motivo do construtor ser obrigatório
+    }
+    
+    
+    
     /**
      * @return the idCadastroEquipamento
      */

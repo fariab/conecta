@@ -57,7 +57,7 @@ public void alterarEquip(){
 
     @Override
     public String toString() {
-        return "Modelo{" + "nome=" + nome + ", descricao=" + descricao + '}';
+        return "Modelo{" + "nome=" + nome + ",  descricao=" + descricao + '}';
     }
 
 

@@ -11,6 +11,10 @@ public class Alugados {
     private Integer idAlugados;
     private String NomeEquipamentos;
     private String DescricaoContrato;
+    
+    public void Alugados(){
+        System.out.println("Janela que exibe os itens alugados pelo usuário");
+    }
 
     /**
      * @return the idAlugados

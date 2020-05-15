@@ -15,6 +15,10 @@ public class Contrato {
     private Calendar DataVencimento;
     private Float ValorBrutoContrato;
     private String DescricaoServicos;
+    
+    public void Contrato(){
+        System.out.println("Exibir informações do contrato");
+    }
 
     /**
      * @return the idContrato

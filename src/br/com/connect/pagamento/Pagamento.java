@@ -10,7 +10,6 @@ import java.util.Objects;
 public class Pagamento {
     private Integer idPagamento;
     private String tipoPagamento;
-    private Integer idUsuarioFk;
 
     /**
      * @return the idPagamento
@@ -40,25 +39,10 @@ public class Pagamento {
         this.tipoPagamento = tipoPagamento;
     }
 
-    /**
-     * @return the idUsuarioFk
-     */
-    public Integer getIdUsuarioFk() {
-        return idUsuarioFk;
-    }
-
-    /**
-     * @param idUsuarioFk the idUsuarioFk to set
-     */
-    public void setIdUsuarioFk(Integer idUsuarioFk) {
-        this.idUsuarioFk = idUsuarioFk;
-    }
-
     @Override
     public int hashCode() {
         int hash = 5;
         hash = 83 * hash + Objects.hashCode(this.tipoPagamento);
-        hash = 83 * hash + Objects.hashCode(this.idUsuarioFk);
         return hash;
     }
 
@@ -77,15 +61,12 @@ public class Pagamento {
         if (!Objects.equals(this.tipoPagamento, other.tipoPagamento)) {
             return false;
         }
-        if (!Objects.equals(this.idUsuarioFk, other.idUsuarioFk)) {
-            return false;
-        }
         return true;
     }
 
     @Override
     public String toString() {
-        return "Pagamento{" + "idPagamento=" + idPagamento + ", tipoPagamento=" + tipoPagamento + ", idUsuarioFk=" + idUsuarioFk + '}';
+        return "Pagamento{" + "idPagamento=" + idPagamento + ", tipoPagamento=" + tipoPagamento + ", idUsuarioFk=" + '}';
     }
     
     

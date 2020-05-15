@@ -15,7 +15,6 @@ public class Banco {
     private Integer idBanco;
     private String nomeBanco;
     private Integer numBanco;
-
     
     /**
      * @return the idBanco

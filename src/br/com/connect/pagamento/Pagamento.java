@@ -11,6 +11,12 @@ public class Pagamento {
     private Integer idPagamento;
     private String tipoPagamento;
 
+    public Pagamento(String tipoPagamento) {
+        this.tipoPagamento = tipoPagamento;
+    }
+
+    
+    
     /**
      * @return the idPagamento
      */

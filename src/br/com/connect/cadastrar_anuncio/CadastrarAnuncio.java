@@ -11,7 +11,11 @@ public class CadastrarAnuncio {
     private Integer idCadastro;
     private String NomeCadastro;
     private Float ValorItemCadastrado;
-
+    
+    public void CadastrarAnuncio(){
+        System.out.println("Cadastrar os Anuncios de aluguel");
+    }
+    
     /**
      * @return the idCadastro
      */

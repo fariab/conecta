@@ -108,7 +108,7 @@ public class Equipamento {
         System.out.println("Realiza e exclusão do equipamento cadastrado.");
         return eaquipamentoExluido;
     }
-
+ 
     public void alteraEquipamento() {
         System.out.println("Altera equipamento já cadastrado. ");
     }

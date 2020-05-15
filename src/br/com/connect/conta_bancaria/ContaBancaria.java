@@ -13,6 +13,16 @@ public class ContaBancaria {
     private Integer numAgencia;
     private Integer numconta;
 
+    public ContaBancaria(String nomBanco, Integer numAgencia, Integer numconta) {
+        this.nomBanco = nomBanco;
+        this.numAgencia = numAgencia;
+        this.numconta = numconta;
+    }
+
+    
+    public void cadastrarContaBancaria(){
+        System.out.println("Cadastra o banco");
+    }
     /**
      * @return the idConta
      */

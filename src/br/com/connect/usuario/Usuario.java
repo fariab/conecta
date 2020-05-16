@@ -10,5 +10,10 @@ package br.com.connect.usuario;
  * @author Matheus
  */
 public class Usuario {
+    Integer idUsuario;
+    String nomUsuario;
+    Integer numCpf;
+    String enderecoUsuario;
+    Integer telUsuario;
     
 }

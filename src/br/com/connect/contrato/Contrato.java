@@ -8,6 +8,10 @@ package br.com.connect.contrato;
 import java.util.Calendar;
 import java.util.Objects;
 
+/**
+ *
+ * @author gustavo
+ */
 public class Contrato {
     private Integer idContrato;
     private Calendar CompetenciaContratoInicio;
@@ -16,7 +20,16 @@ public class Contrato {
     private Float ValorBrutoContrato;
     private String DescricaoServicos;
     
-    public void Contrato(){
+    /**
+     *
+     */
+    public void Contrato(Integer idContrato, Calendar CompetenciaContratoInicial,
+            Calendar CompetenciaContratoFinal, Calendar DataVencimento,
+            Float ValorBrutoContrato, String DescricaoServicos){
+        
+        Contrato contrato = new Contrato(idContrato, CompetenciaContratoInicio,
+                CompetenciaContratoFinal, DataVencimento, ValorBrutoContrato, DescricaoServicos);
+        
         System.out.println("Exibir informações do contrato");
     }
 
@@ -150,6 +163,15 @@ public class Contrato {
         return "Contrato{" + "idContrato=" + idContrato + ", CompetenciaContratoInicio=" + CompetenciaContratoInicio + ", CompetenciaContratoFinal=" + CompetenciaContratoFinal + ", DataVencimento=" + DataVencimento + ", ValorBrutoContrato=" + ValorBrutoContrato + ", DescricaoServicos=" + DescricaoServicos + '}';
     }
 
+    /**
+     *
+     * @param idContrato
+     * @param CompetenciaContratoInicio
+     * @param CompetenciaContratoFinal
+     * @param DataVencimento
+     * @param ValorBrutoContrato
+     * @param DescricaoServicos
+     */
     public Contrato(Integer idContrato, Calendar CompetenciaContratoInicio, Calendar CompetenciaContratoFinal, Calendar DataVencimento, Float ValorBrutoContrato, String DescricaoServicos) {
         this.idContrato = idContrato;
         this.CompetenciaContratoInicio = CompetenciaContratoInicio;

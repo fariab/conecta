@@ -9,7 +9,12 @@ import java.util.Objects;
 public class Categoria {
     private Integer idCategoria;
     private String desCategoria;
-    private Integer categoriaUsuario;
+
+    public Categoria(String desCategoria) {
+        this.desCategoria = desCategoria;
+    }
+
+    
 
     /**
      * @return the idCategoria
@@ -37,20 +42,6 @@ public class Categoria {
      */
     public void setDesCategoria(String desCategoria) {
         this.desCategoria = desCategoria;
-    }
-
-    /**
-     * @return the categoriaUsuario
-     */
-    public Integer getCategoriaUsuario() {
-        return categoriaUsuario;
-    }
-
-    /**
-     * @param categoriaUsuario the categoriaUsuario to set
-     */
-    public void setCategoriaUsuario(Integer categoriaUsuario) {
-        this.categoriaUsuario = categoriaUsuario;
     }
 
     @Override

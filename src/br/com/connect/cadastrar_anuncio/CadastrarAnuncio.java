@@ -12,7 +12,8 @@ public class CadastrarAnuncio {
     private String NomeCadastro;
     private Float ValorItemCadastrado;
     
-    public void CadastrarAnuncio(){
+    public void CadastrarAnuncio(Integer idCadastro, String NomeCadastro, Float ValorItemCadastrado){
+        CadastrarAnuncio ca = new CadastrarAnuncio(idCadastro, NomeCadastro, ValorItemCadastrado);
         System.out.println("Cadastrar os Anuncios de aluguel");
     }
     

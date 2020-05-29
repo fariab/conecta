@@ -12,8 +12,11 @@ public class Alugados {
     private String NomeEquipamentos;
     private String DescricaoContrato;
     
-    public void Alugados(){
+    public void Alugados(int idAlugados, String NomeEquipamentos, String DescricaoContrato){
+        
+        Alugados alugados = new Alugados(123423, "pá", "sadasdasd");
         System.out.println("Janela que exibe os itens alugados pelo usuário");
+       
     }
 
     /**

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Equipamento {
-
+  
     private Integer idCadastroEquipamento;
     private String nomeEquipamento;
     private Integer numeroDeSerie;

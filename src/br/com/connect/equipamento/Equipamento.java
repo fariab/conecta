@@ -1,4 +1,4 @@
-package br.com.connect.modelo;
+package br.com.connect.equipamento;
 
 import java.util.ArrayList;
 import java.util.List;
